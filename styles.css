@@ -2,7 +2,9 @@
   background-color: #fefae0;
 }
 
-main {
+main,
+.flex-wrap,
+.align-items {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -105,6 +107,54 @@ main {
   flex-direction: column;
 }
 
+.ac-flex-start {
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.ac-flex-end {
+  align-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.ac-flex-center {
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.ac-flex-start-column {
+  align-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.ac-flex-end-column {
+  align-content: flex-end;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.ac-flex-center-column {
+  align-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.flex.ac-flex-space-between {
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+
+.ac-flex-space-around {
+  align-content: space-around;
+  flex-wrap: wrap;
+}
+
+.ac-flex-stretch {
+  align-content: stretch;
+  flex-wrap: wrap;
+}
+
 .cuadrado {
   background-color: #187afb;
   height: 50px;
@@ -121,4 +171,20 @@ main {
 
 .cuadrado:nth-of-type(4) {
   background-color: #00ced1;
+}
+
+.cuadrado:nth-of-type(5) {
+  background-color: #c3d100;
+}
+
+.cuadrado:nth-of-type(6) {
+  background-color: #35dc14;
+}
+
+.cuadrado:nth-of-type(7) {
+  background-color: #d16500;
+}
+
+.cuadrado:nth-of-type(8) {
+  background-color: #000000;
 }
